@@ -16,7 +16,6 @@ export default function Pagina(props: PaginaProps) {
         >
             <div
                 className="flex-1 flex flex-col w-screen"
-                style={{ background: 'url("/background.png")' }}
             >
                 {!props.semCabecalho && <Cabecalho />}
                 <main className={`flex-1 flex flex-col ${props.className ?? ''}`}>
