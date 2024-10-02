@@ -14,7 +14,7 @@ export default class CalcularParcelamento {
         const totalComJuros = this.calcularJurosCompostos(valor, taxaJuros, qtdeParcelas)
 
         return {
-            valorParcial: this.comDuasCasasDecimais(totalComJuros / qtdeParcelas),
+            valorParcela: this.comDuasCasasDecimais(totalComJuros / qtdeParcelas),
             valorTotal: this.comDuasCasasDecimais(totalComJuros),
             qtdeParcelas,
             taxaJuros
