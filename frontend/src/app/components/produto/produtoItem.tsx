@@ -3,7 +3,7 @@ import { Moeda, Produto } from '@/app/core'
 import { IconShoppingCartPlus } from '@tabler/icons-react'
 import Image from 'next/image'
 import Link from 'next/link'
-import NotaReview from '../shared/notaReview'
+import NotaReview from '../../components/shared/notaReview'
 
 export interface ProdutoItemProps {
     produto: Produto
