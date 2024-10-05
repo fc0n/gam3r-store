@@ -1,4 +1,4 @@
 
 # Attention
 
-Para executar o projeto, seu node.js precisa ser a versão =>18.20.4
+Para executar o projeto, seu node.js precisa ser a versão => 18.20.4 e Nestjs => 10.
