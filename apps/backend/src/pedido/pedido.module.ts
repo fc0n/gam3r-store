@@ -1,7 +1,11 @@
 import { Module } from '@nestjs/common';
 import { PedidoController } from './pedido.controller';
+import { DbModule } from '../db/db.module';
+import { PedidoPrisma } from './pedido.prisma';
 
 @Module({
-  controllers: [PedidoController]
+  imports: [DbModule],
+  controllers: [PedidoController],
+  providers: [PedidoPrisma]
 })
 export class PedidoModule {}
