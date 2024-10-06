@@ -13,4 +13,14 @@ export class ProdutoPrisma {
           create: produto,
         });
     }
+
+    async obter(): Promise<Produto[]> {
+        const produtos = await this.prisma.produto.findMany();
+        return produtos as any;
+    }
+
+    async obterPorId(id: number): Promise<Produto | null> {
+        const produto = await this.prisma.produto.findUnique({ where: { id } });
+        return (produto as any) ?? null;
+    }
 }
