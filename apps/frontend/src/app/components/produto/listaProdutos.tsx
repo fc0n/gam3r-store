@@ -1,6 +1,6 @@
 'use client'
 // import useProdutos from '@/data/hooks/useProdutos'
-import { produtos } from '@/app/core'
+import { produtos } from '@gstore/core'
 import ProdutoItem from './produtoItem'
 import ProdutoNaoEncontrado from './produtoNaoEncontrado'
 

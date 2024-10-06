@@ -1,5 +1,5 @@
 
-import { Produto } from '@/app/core'
+import { Produto } from '@gstore/core'
 import Image from 'next/image'
 import Especificacoes from './especificacoes'
 

@@ -1,5 +1,5 @@
-import Especificacoes from "./especificacoes"
-import Precificavel from "./precificavel"
+import Especificacoes from './Especificacoes'
+import Precificavel from './Precificavel'
 
 export default interface Produto extends Precificavel {
     id: number

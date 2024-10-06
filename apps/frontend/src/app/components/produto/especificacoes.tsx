@@ -1,4 +1,4 @@
-import { Produto } from '@/app/core'
+import { Produto } from '@gstore/core'
 import { IconTag } from '@tabler/icons-react'
 import Tag from '../shared/tag'
 
