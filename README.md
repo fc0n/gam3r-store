@@ -1,3 +1,7 @@
+# Attention
+
+To run the project, your node.js needs to be version => 18.20.4 and Nestjs => 10, db integration to postgresql backend.
+
 # Turborepo starter
 
 This is an official starter Turborepo.
