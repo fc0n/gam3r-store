@@ -1,3 +1,4 @@
+import AvaliacaoEspecializada from "@/app/components/produto/avaliacaoEspecializada"
 import AvaliacoesUsuarios from "@/app/components/produto/avaliacoesUsuarios"
 import BannerCompra from "@/app/components/produto/bannerCompra"
 import InformacoesProduto from "@/app/components/produto/informacoesProduto"
@@ -18,6 +19,7 @@ export default function PaginaProduto(props: any) {
             <MedidorDePreco produto={produto}/>
         </div>
         <AvaliacoesUsuarios  produto={produto}/>
+        <AvaliacaoEspecializada  produto={produto}/>
     </div>
     ) :  (
         <ProdutoNaoEncontrado />
