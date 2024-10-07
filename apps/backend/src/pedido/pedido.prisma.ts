@@ -11,6 +11,7 @@ export class PedidoPrisma {
     const pedidos = await this.prisma.pedido.findMany();
     return pedidos as any;
   }
+
   async obterPorId(id: number): Promise<Pedido[]> {
     const pedidos = await this.prisma.pedido.findUnique({
       where: { id },
