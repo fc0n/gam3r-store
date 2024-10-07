@@ -10,8 +10,8 @@ import {
 import { createContext, useEffect, useState } from 'react'
 import { useRouter } from 'next/navigation'
 import useLocalStorage from '../hooks/useLocalStorage'
-import useCarrinho from '../hooks/useCarrinho'
 import useAPI from '../hooks/useAPI'
+import useCarrinho from '../hooks/useCarrinho'
 
 export interface ContextoPagamentoProps {
     formaPagamento: FormaPagamento
